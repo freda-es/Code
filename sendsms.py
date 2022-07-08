@@ -33,7 +33,8 @@ my_number = '+355' + str(list_numbers[0])
 #connection with twilio
 import os
 from twilio.rest import Client
- 
+
+
 account_sid = 'account_sidc' 
 auth_token = 'auth_token' 
 client1 = Client(account_sid, auth_token) 
